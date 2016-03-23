@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/petrosp/token-auth-devise.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -38,7 +41,8 @@
     "ember-resolver": "^2.0.3",
     "ember-simple-auth": "1.1.0-beta.3",
     "ember-try": "^0.1.2",
-    "loader.js": "^4.0.0"
+    "loader.js": "^4.0.0",
+    "token-auth-devise": "git+https://github.com/petrosp/token-auth-devise.git#9a28a03056afe3ce0b7c9d754b715a28b7494710"
   },
   "keywords": [
     "ember-addon"
